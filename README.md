@@ -3,3 +3,5 @@
 When attempting to parse a JSON, when one of the fields sometimes have a value that spans over 10K characters, I notice that the field value gets truncated to 10K characters.
 
 Haven't been able to pinpoint exactly why at the time of writing..
+
+UPDATE: not a bug. The input JSON in the field was itself truncated..
