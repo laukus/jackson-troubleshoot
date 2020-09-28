@@ -4,4 +4,5 @@ When attempting to parse a JSON, when one of the fields sometimes have a value t
 
 Haven't been able to pinpoint exactly why at the time of writing..
 
+Bug report: https://github.com/FasterXML/jackson-core/issues/641
 UPDATE: not a bug. The input JSON in the field was itself truncated..
